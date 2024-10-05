@@ -1,0 +1,145 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: black;
+    height: 60%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label::selection,
+button::selection,
+h2::selection,
+span::selection,
+a::selection,
+p::selection,
+input::selection
+
+{
+    color: white;
+    background-color: #000000;
+}
+
+input, textarea
+{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    margin: 50px;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 2px;
+    color: #333;
+}
+
+#frase
+{
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+    text-align: left;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+
+#boton1 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    margin-top: 1rem;
+}
+
+#boton2
+{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 19px;
+    margin: 10px;
+    background-color: transparent;
+    
+}
+
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.bi-pc-display
+{
+    font-size: 30px;
+}
+
+#boton1:hover 
+{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
+#boton2:hover
+{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+}
